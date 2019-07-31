@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contain{`
+	width: 375px;
+	margin: 0 auto;
+}
+
+.top{
+	width: 375px;
+	height: 50px;
+	background: pink;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.top .left{
+	width: 100px;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.top .right input{
+	height: 28px;
+	width: 200px;
+	border-radius: 4px;
+	/*outline: 0;*/
+	/*border: 0;*/
+	background: rgba(255,255,255,0.7);
+	padding: 10px;
+}
+
+.Underway{
+	width: 375px;
+	margin: 0 auto;
+}
+
+.todo{
+	width: 375px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 20px;
+	align-items: center;
+}
+
+.todo .left{
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.todo .right{
+	font-size: 15px;
+	width: 30px;
+	height: 20px;
+	color: white;
+	background: deeppink;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.list{
+	width: 375px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+
+.content{
+	width: 360px;
+	display: flex;
+	margin: 10px;
+	padding: 10px;
+	background: rgba(255,107,98,0.2);
+	border-radius: 5px;
+}
+
+.contentLite{
+	width: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.contentLite input{
+	width: 20px;
+	height: 20px;
+}
+
+.content p{
+	flex: 1;
+	padding: 0 10px;
+	word-break: break-word;
+	display: flex;
+	align-items: center;
+}
+
+.content .delete{
+	width: 50px;
+	height: 26px;
+	background: red;
+	color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 900;
+}
+
+
+.complete{
+	width: 375px;
+	margin: 0 auto;
+}
+
+.done{
+	width: 375px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 20px;
+	align-items: center;
+}
+
+.done .left{
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.done .right{
+	font-size: 15px;
+	width: 30px;
+	height: 20px;
+	color: white;
+	background: deeppink;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.complete .content{
+	opacity: 0.8;
+	-webkit-filter: grayscale(1);
+}
+
+
+
+
